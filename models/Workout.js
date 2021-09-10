@@ -11,9 +11,9 @@ const WorkoutSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: "Exercise"
   }
-
 }
 );
+
 
 const Workout = mongoose.model("Workout", WorkoutSchema);
 
