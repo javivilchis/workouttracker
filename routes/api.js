@@ -8,9 +8,11 @@ router.get("/api/workouts/range", async (req, res) => {
 });
 
 router.get("/api/workouts", (req, res) => {
+     console.log("getting workouts");
      db.Workout.find({})
           .sort({ date: -1 })
           .then(dbWorkout => {
+               console.log(dbWorkout[0]);
                res.json(dbWorkout);
           })
           .catch(err => {
