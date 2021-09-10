@@ -19,6 +19,7 @@ console.log(mongoose.connection.readyState);
 
 // routes
 app.use(require("./routes/api.js"));
+require("./routes/route.js")(app);
 
 app.listen(PORT, () => {
      console.log(`App running on port ${PORT}!`);
