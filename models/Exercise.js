@@ -27,6 +27,18 @@ const ExerciseSchema = new Schema({
   day: {
     type: Date
   },
+},
+  {
+    toJSON: {
+      virtuals: true,
+    }
+  }
+);
+
+ExerciseSchema.virtual("totalDuration").get(function () {
+  return this.exercises.reduce((accumulated, exercise) => {
+    return accumulated + exercise.duration;
+  }, 0);
 });
 
 const Exercise = mongoose.model("Exercise", ExerciseSchema);
