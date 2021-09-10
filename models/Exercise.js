@@ -26,8 +26,7 @@ const ExerciseSchema = new Schema({
   },
   day: {
     type: Date
-  }
-
+  },
 });
 
 const Exercise = mongoose.model("Exercise", ExerciseSchema);
