@@ -1,0 +1,3 @@
+DELETE http://localhost:3000/api/workouts/delete/613d04c0daa657469c73058d
+content-type: application/json
+
