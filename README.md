@@ -1,16 +1,16 @@
-# Workout Tracker
-
+###  Workout Tracker  :octocat:
 <br>
 
 ![badge](https://img.shields.io/badge/license--brightgreen)<br />
 
 ## Description 
 
-*The objective of this project:* 
+The Workout Tracker is designed to track your workout for each day or time you do a set of workout sessions. You can track almost anything to help you reach the goal you might have when working out. This workout tracker will include the amount of repetitions, how often and what kind of exercise you have completed. - Pain is temporary.
 
-The Workout Tracker is designed to track your workout for each day or time you do a set of workout sessions. You can track almost anything to help you reach the goal you might have when working out. This workout tracker will include the amount of repetitions, how often and what kind of exercise you have completed. - Pain is temporary.<br>## Table of contents
+## Table of contents <a name="tbc"></a>
 * [Installation](#installation)
 * [Usage](#usage)
+* [Sample](#sample)
 * [Contributing](#contributing)
 * [Tests](#testing)
 * [Questions](#questions)
@@ -20,7 +20,13 @@ download the basecode to your local machine and run npm install within the folde
   
 *Instructions and examples for use:*
 The use of this tool is to keep you in shape and on board on whatever goal you might have, consider this as your coach for getting better.
-undefined
+
+## Sample
+Please take a look at the image and video sample.
+For a full video of the app, please refer to this [video link](https://drive.google.com/file/d/1IXoLewkpeVzE2epr1334H2_ahmDIaHuD/view).
+
+![image](./assets/workouttracker.gif)
+
 ## contributing
   
 *If you would like to contribute it, you can follow these guidelines for how to do so.*
@@ -33,3 +39,5 @@ no test included
 *If you have a concern or input abou the project, you can contact:*
 <br>
 Please contact Javier Vilchis via [Email](javivilchis@gmail.com)
+
+[back to top ↑](#tbc) 
