@@ -7,7 +7,7 @@
 
 The Workout Tracker is designed to track your workout for each day or time you do a set of workout sessions. You can track almost anything to help you reach the goal you might have when working out. This workout tracker will include the amount of repetitions, how often and what kind of exercise you have completed. - Pain is temporary.
 
-Take a look at it on Roku: (Workout Tracker on Heroku)[https://jv21workouttracker.herokuapp.com/stats]
+Take a look at it on Roku: [Workout Tracker on Heroku](https://jv21workouttracker.herokuapp.com/stats)
 
 ## Table of contents <a name="tbc"></a>
 * [Installation](#installation)
